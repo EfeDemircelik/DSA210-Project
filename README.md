@@ -26,6 +26,7 @@ This project will use publicly available data.
       - Scatter plot: A scatter plot will be created to show the indices' relationship.
 ### 3. Correlation Analysis 
   * The statistical relationship between BIST100 and CSI300 will be quantified by calculating the Pearson's correlation coefficient and Spearman rank correlation coefficient.
+-----------
 ## Hypothesis 
 * Null Hypothesis (H₀): There is no significant correlation between daily returns of BIST100 and CSI300 Index.
 * Alternative Hypothesis (H₁): There is a significant correlation between the daily returns of BIST100 and CSI300 Index.
