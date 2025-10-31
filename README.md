@@ -16,16 +16,16 @@ This project will use publicly available data.
    * Daily historical data (Date, open, high, low, close, adj close, volume) for the last 10 years (2015-2025)
 ## Data Analysis
 ### 1. Data Collection and Cleaning
-    * Historical stock price data for BIST100 (XU100.IS) and CSI300 (000300.SS) indices will be retrieved from Yahoo Finance using Python's yfinance library.
-    * Due to different public holidays, there will be days when one market is open while the other is closed. These non-matching dates will be handled.
+  * Historical stock price data for BIST100 (XU100.IS) and CSI300 (000300.SS) indices will be retrieved from Yahoo Finance using Python's yfinance library.
+  * Due to different public holidays, there will be days when one market is open while the other is closed. These non-matching dates will be handled.
 ### 2. Exploratory Data Analysis (EDA)
-    * Key statistics like mean, median, standart deviation will be calculated for daily returns for each index. 
-    * Data visualization: 
+  * Key statistics like mean, median, standart deviation will be calculated for daily returns for each index. 
+  * Data visualization: 
       - Time series plots: Historical prices of both indices will be ploted on the same graph to visually identify major trends.
       - Histograms: The distribution of daily returns of both BIST100 and CSI300 will be ploted to show their spread.
       - Scatter plot: A scatter plot will be created to show the indices' relationship.
 ### 3. Correlation Analysis 
-    * The statistical relationship between BIST100 and CSI300 will be quantified by calculating the Pearson's correlation coefficient and Spearman rank correlation coefficient.
+  * The statistical relationship between BIST100 and CSI300 will be quantified by calculating the Pearson's correlation coefficient and Spearman rank correlation coefficient.
 ## Hypothesis 
 * Null Hypothesis (H₀): There is no significant correlation between daily returns of BIST100 and CSI300 Index.
 * Alternative Hypothesis (H₁): There is a significant correlation between the daily returns of BIST100 and CSI300 Index.
