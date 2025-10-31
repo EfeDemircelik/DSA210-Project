@@ -2,7 +2,7 @@
 ## Project Overview
 This project aims to conduct a data driven analysis of the relationship between Turkish stock market (BIST100) and Chinese stock market (CSI300) using historical daily price data. 
 ## Motivation
-In financial analysis, the relationships between BIST100 and western markets like S&P500, or BIST100's connection with local indicators like USD/TRY exchange rate, are well known and documented. However, global economy is dynamic. This project seeks to unravel the connection between two dynamic and significant markets, Turkey and China, and answer the question: Is there a meaningful , quantifiable relationship between the Turkish and Chinese stock markets?
+In financial analysis, the relationships between BIST100 and western markets like S&P500, or BIST100's connection with local indicators like USD/TRY exchange rate, are well known and documented. However, global economy is dynamic. This project seeks to unravel the connection between two dynamic and significant markets, Turkey and China, and answer the question: Is there a meaningful, quantifiable relationship between the Turkish and Chinese stock markets?
 ## Objectives
 1. Examine the historical relationship between BIST100 and CSI300
    * Analyze the daily price movements of the BIST100 and CSI300 indices to identify potential long-term trends and connections.
