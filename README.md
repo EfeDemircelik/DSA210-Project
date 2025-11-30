@@ -13,14 +13,15 @@ In financial analysis, the relationships between BIST100 and western markets lik
 ------------
 ## Data Sources
 This project will use publicly available data.
-1. Borsa Istanbul 100 Index (BIST100) from Yahoo Finance
-   * Daily historical data (Date, open, high, low, close, adj close, volume) for the last 10 years (2015-2025)
-2. China A50 Index (CSI300) from Yahoo Finance
-   * Daily historical data (Date, open, high, low, close, adj close, volume) for the last 10 years (2015-2025)
+1. Borsa Istanbul 100 Index (BIST100) from investing.com
+   * Daily historical data (Date, price, open, high, low, volume, daily return) for the last 10 years (2015-2025)
+2. China A50 Index (CSI300) from investing.com
+   * Daily historical data (Date, price, open, high, low, volume, daily return) for the last 10 years (2015-2025)
+Price and daily return data will be used for visualization and hypothesis testing. Volatility of daily returns will be calculated and visualized.
 -----------
 ## Data Analysis
 ### 1. Data Collection and Cleaning
-  * Historical stock price data for BIST100 (XU100.IS) and CSI300 (000300.SS) indices will be retrieved from Yahoo Finance using Python's yfinance library.
+  * Historical stock price data for BIST100 (XU100.IS) and CSI300 (000300.SS) indices will be retrieved from investing.com.
   * Due to different public holidays, there will be days when one market is open while the other is closed. These non-matching dates will be handled.
 ### 2. Exploratory Data Analysis (EDA)
   * Key statistics like mean, median, standart deviation will be calculated for daily returns for each index. 
@@ -34,3 +35,7 @@ This project will use publicly available data.
 ## Hypothesis 
 * Null Hypothesis (H₀): There is no significant correlation between daily returns of BIST100 and CSI300 Index.
 * Alternative Hypothesis (H₁): There is a significant correlation between the daily returns of BIST100 and CSI300 Index.
+
+### Sub-Period Analysis 
+* Null Hypothesis (H₀): There is no correlation between BIST100 and CSI300 daily returns in any of the three periods: Pre-Covid (2017-2019), Covid (2020-2021), Post-Covid (2022,2024).
+* Alternative Hypothesis (H₁): There is a significant correlation between BIST100 and CSI300 daily returns in at least one of the periods.
