@@ -46,9 +46,6 @@ Price and daily return data will be used for visualization and hypothesis testin
 * Null Hypothesis (H₀): The correlation between BIST100 and CSI300 remains constant across Pre-Covid (2017-2019), Covid (2020-2021), Post-Covid (2022,2024) periods.
 * Alternative Hypothesis (H₁): The correlation structure differs significantly between the pandemic and non-pandemic periods.
 
-### Global Risk Comparison (MSCI Benchmark)
-* Null Hypothesis (H₀): BIST100 and CSI300 exhibit the same risk (Beta) relative to MSCI World Index.
-* Alternative Hypothesis (H₁): BIST100 and CSI300 have significantly different risk profiles relative to the global market.
 -----------
 ## Machine Learning and Causality Analysis
 * Stationarity Testing: Used the Augmented Dickey-Fuller (ADF) test to ensure time series data was stationary (p < 0.05)before modeling.
